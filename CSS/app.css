@@ -66,10 +66,14 @@ body{
   background-size:cover;
   margin-inline: auto;
   padding: 50px;
-
+  
 }
 header{
   font-family: 'Protest Revolution', sans-serif;
   font-size:20pt;
   text-align:center;
+}
+main{
+  text-align:center;
+
 }
