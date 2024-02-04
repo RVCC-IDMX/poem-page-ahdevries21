@@ -62,18 +62,28 @@ select {
 }
 /* 👇 Start custom code 👇 */
 body{
-  background-image:url(img/Paper.jpg);
-  background-size:cover;
+  background-color:rgb(229, 207, 177);
   margin-inline: auto;
   padding: 50px;
   
 }
+
 header{
   font-family: 'Protest Revolution', sans-serif;
   font-size:20pt;
   text-align:center;
 }
-main{
-  text-align:center;
-
+#poem {
+  text-align:left;
+  font-family: 'Protest Riot', sans-serif;
+  font-size:15pt;
 }
+figcaption{
+  font-family: 'Protest Riot', sans-serif;
+  text-align:center;
+  }
+  figcaption img{
+    max-width:100%;
+    height:auto;
+  }
+
