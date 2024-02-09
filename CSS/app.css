@@ -72,25 +72,50 @@ body{
 
 header{
   font-family: 'Lugrasimo', cursive;
-  font-size:20pt;
+  font-size:19pt;
   text-align:center;
+  font-weight:bold;
 }
 
-#poem {
-  text-align:center;
+.border{
+  border:1px solid black;
+}
+
+.poem {
+  text-align:left;
   font-family: 'Lugrasimo', cursive;
-  font-size: 15pt;
+  font-size: 13pt;
   font-style: oblique;
+}
+
+span{
+  float:left;
+  width:0.7em;
+  font-size:60pt;
+  font-weight: bolder;
+  line-height:80%;
+}
+
+figure{
+  float:right;
+  display:flex;
+  flex-direction: column;
 }
 
 figcaption{
   font-family: 'Lugrasimo', cursive;
   text-align:center;
   align-items:center;
-  padding:
+  float:right;
 }
+
 figcaption img{
   max-width:100%;
   height:auto; 
-  border:5px double brown;
+  border:8px double brown;
+  
+}
+
+.author{
+    font-family: 'Lugrasimo', cursive;
 }
