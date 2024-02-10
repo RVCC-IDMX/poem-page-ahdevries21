@@ -96,17 +96,14 @@ span{
   line-height:80%;
 }
 
-figure{
-  float:right;
-  display:flex;
-  flex-direction: column;
-}
 
 figcaption{
   font-family: 'Lugrasimo', cursive;
   text-align:center;
   align-items:center;
-  float:right;
+}
+caption{
+  font: size 10pt;
 }
 
 figcaption img{
